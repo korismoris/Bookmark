@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Book.css">  
+    </head>
+    <body>
+        <div class="newBook">
+            <form>
+                <label for="bTitle">Book Title</label>
+                <input type="text" id="bTitle"> 
+
+                <label for="bAuthor">Author</label>
+                <input type="text" id="bAuthor">
+                
+                <laber for="bPages">Pages</laber>
+                <input type="text" id="bPages">
+                
+                <p>Have you read this book?</p>
+                
+                <label for="readYes">Yes</label>
+                <input type="radio" id="readYes" name="readStatus" value=true>
+            
+                <label for="readNo">No</label>
+                <input type="radio" id="readNo" name="readStatus" value=false>
+
+            </form>
+            <button id ="btn">Add New Book</button>
+        </div>
+        <div class="bookTable">
+        </div>
+        
+        <script src = "bookmark.js"></script>
+    </body>
+</html>
